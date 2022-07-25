@@ -3,7 +3,7 @@ R implementation of Layered Principal Component Analysis (LPCA)
 
 ## Usage
 ```r
-source("SPCA_majo.R")
+source("LPCA_majo.R")
 X <- matrix(rnorm(1000), 100, 10)
 res <- MULTIPLE_STARTS("LPCA_majo(X,2,3)",100)
 ```
